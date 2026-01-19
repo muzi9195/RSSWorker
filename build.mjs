@@ -26,6 +26,7 @@ function buildWorker({ entry, out, debug, external } = {}) {
 		},
 		metafile: true,
 		legalComments: 'external',
+	  external: ['cloudflare:sockets'], 
 	});
 }
 
